@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OnePage Project</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link to css -->
+    <link rel="stylesheet" href="./first-bootstrap/styles.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@500;700;800&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+   
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 shadow-sm position-fixed w-100 z-1 bg-white ">
+        <div class="container-sm">
+          <a class="navbar-brand secondary-text-col" href="#">OnePage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6  me-5 ">
+              <li class="nav-item mx-2 ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+        
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2 ">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button type="button" class="btn  pri-bg-col text-white">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main section -->
+      <main class="d-flex justify-content-center align-content-center pt-5 ">
+        <div class="text-center mt-lg-5  pt-5" data-aos="fade-up"  data-aos-delay="100">
+            <h1 class="secondary-text-col display-3  fw-bolder mt-5 ">One Page Bootstrap</h1>
+            <h1 class="secondary-text-col display-3 fw-bolder ">Website Template</h1>
+            <p class="fs-4 text-secondary ">We are team of talented designers</p>
+            <button class="btn pri-bg-col   text-white px-5 py-3 mt-4" >Get Started</button>
+            <div class="container text-center gy-4 mt-5 mb-5 " data-aos="fade-up"  data-aos-delay="300">
+                <div class="row gy-4 mt-5 ">
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow-lg border-0 py-3 text-start px-3 card-zoom mx-auto ">
+                      <i class="bi bi-stack fs-2 p-3 pri-text-col"></i>
+                        <div class="card-body">
+                          <h5 class="card-title  secondary-text-col fw-bold ">Lorem Ipsum</h5>
+                          <p class="card-text text-secondary ">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card border-0 shadow-lg  py-3 px-3 text-start card-zoom mx-auto " >
+                      <i class="bi bi-palette fs-2 p-3  pri-text-col"></i>
+                        <div class="card-body">
+                          <h5 class="card-title secondary-text-col fw-bold ">Sed ut perspiciatis</h5>
+                          <p class="card-text text-secondary ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow-lg border-0 py-3 px-3 text-start card-zoom mx-auto " >
+                      <i class="bi bi-command fs-2  p-3  pri-text-col"></i>
+                        <div class="card-body">
+                          <h5 class="card-title  secondary-text-col fw-bold ">Magni Dolores</h5>
+                          <p class="card-text text-secondary ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow-lg py-3 border-0 text-start px-3 card-zoom mx-auto " >
+                      <i class="bi bi-fingerprint fs-2 p-3   pri-text-col"></i>
+                        <div class="card-body">
+                          <h5 class="card-title  secondary-text-col fw-bold ">Nemo Enim</h5>
+                          <p class="card-text  text-secondary ">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </main>
+      <!-- About-us section -->
+      <section class="about-us py-5 container-sm ">
+          <div class="text-center py-5">
+              <h1 class="secondary-text-col fw-bold  pt-5 ">ABOUT US</h1>
+              <p class="text-secondary fs-6 ">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+          </div>
+          <div class="about-us-text row ">
+              <div class="col-md-6">
+                <div class="card border-0 ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <ul class="list-group border-0 me-5">
+                    <li class="list-group-item border-0 p-0 ">
+                      <span><i class="bi bi-check2-all pri-text-col"></i></span><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat</span></li>
+                    <li class="list-group-item border-0 p-0 ">
+                      <span><i class="bi bi-check2-all pri-text-col"></i></span><span> Duis aute irure dolor in reprehenderit in voluptate velit</span></li>
+                    <li class="list-group-item border-0 p-0 ">
+                      <span><i class="bi bi-check2-all pri-text-col"></i></span><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat</span></li>
+                  </ul>
+                </div>
+                  
+              </div>
+              <div class="col-md-6">
+                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <button type="button" class="btn btn-outline-primary px-4">Learn more</button>
+              </div>
+          </div>
+      </section>
+
+      <!-- Testimonial section -->
+      <section class="testimonial-section container-sm py-5 ">
+          <div class="testimonial py-5 container-sm ">
+              <h1 class="secondary-text-col text-center fw-bolder ">TESTIMONIALS</h1>
+              <p class="text-center text-secondary ">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="container-sm"> 
+              <!-- Slider main container -->
+                  <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="card p-3 border-0 ">
+                          <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                              <p class="fst-italic text-dark ">
+                                <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                              </p>
+                            </div>
+                              <div class="testimonial-image mt-3 text-center ">
+                                  <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                  <h2>Sara Wilsson</h2>
+                                  <p>Designer</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card p-3 border-0 ">
+                          <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                              <p class="fst-italic text-dark ">
+                                <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                              </p>
+                            </div>
+                              <div class="testimonial-image mt-3 text-center ">
+                                  <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                  <h2>Sara Wilsson</h2>
+                                  <p>Designer</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card p-3 border-0 ">
+                          <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                              <p class="fst-italic text-dark ">
+                                <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                              </p>
+                            </div>
+                              <div class="testimonial-image mt-3 text-center ">
+                                  <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                  <h2 class="fs-5 mt-3 fw-bold ">Sara Wilsson</h2>
+                                  <p>Designer</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card p-3 border-0 ">
+                          <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                              <p class="fst-italic text-dark ">
+                                <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                              </p>
+                            </div>
+                              <div class="testimonial-image mt-3 text-center ">
+                                  <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                  <h2>Sara Wilsson</h2>
+                                  <p>Designer</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card p-3 border-0 ">
+                          <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                              <p class="fst-italic text-dark ">
+                                <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                              </p>
+                            </div>
+                              <div class="testimonial-image mt-3 text-center ">
+                                  <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                  <h2>Sara Wilsson</h2>
+                                  <p>Designer</p>
+                          </div>
+                      </div>
+                      </div>
+                      ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                  </div>
+          
+            <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Sara Wilsson</h2>
+                                    <p>Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 2.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Jena Karlis</h2>
+                                    <p>Store Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 3.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Matt Brandon</h2>
+                                    <p>Freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 4.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>John Larson</h2>
+                                    <p>Enterpreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 5.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Saul Goodman</h2>
+                                    <p>CEO & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image1.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Sara Wilsson</h2>
+                                    <p>Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 2.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Jena Karlis</h2>
+                                    <p>Shop Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 3.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>Matt Brandon</h2>
+                                    <p>Freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card p-3 border-0 ">
+                            <div class="card-title text-center p-3 rounded-3   bg-title-col">
+                                <p class="fst-italic text-dark ">
+                                  <i class='bx bxs-quote-alt-left fs-2 quote-text-col'></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat amet consequuntur assumenda architecto aut atque officia tempore, blanditiis ullam itaque aliquid odio mollitia nihil cupiditate iure eaque sunt quod sapiente?<i class='bx bxs-quote-alt-right fs-2 quote-text-col'></i>
+                                </p>
+                              </div>
+                                <div class="testimonial-image mt-3 text-center ">
+                                    <img src="./first-bootstrap/images/image 4.jpg" alt="" class="rounded-circle  w-25 ">
+                                    <h2>John Larson</h2>
+                                    <p>Enterpreneur</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div> --> 
+          </div>
+      </section>
+      <!-- Portfolio -->
+      <section class="portfolio">
+          <div class="portfolio-section container-sm ">
+              <h1 class="text-center secondary-text-col fw-bold ">PORTFOLIO</h1>
+              <p class="text-center text-secondary ">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <div class="row">
+                <div class="d-flex justify-content-center gap-5 mt-3">
+                  <p class="title-hover active">ALL</p>
+                  <p class="title-hover">APP</p>
+                  <p class="title-hover">CARD</p>
+                  <p class="title-hover">WEB</p>
+                </div>
+            </div>
+            <!-- Mansory -->
+            <div class="grid " data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+              <div class="grid-item grid-item--width2 p-4">
+                  <img src="./first-bootstrap/images/portfolio-1.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-2.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-3.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-4.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-5.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-6.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-7.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-8.jpg" alt="" class="w-100 h-100 ">
+              </div>
+              <div class="grid-item grid-item--width2 p-3">
+                  <img src="./first-bootstrap/images/portfolio-9.jpg" alt="" class="w-100 h-100 ">
+              </div>
+            </div>
+
+          </div>     
+      </section>
+
+
+
+
+      <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <!-- AOS Js -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- swiper script -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <!-- Mansory script -->
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+      <!-- local script -->
+      <script src="swiper.js"></script>
+  </body>
+</html>
